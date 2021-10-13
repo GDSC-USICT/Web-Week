@@ -1,0 +1,40 @@
+.message {
+  display: flex;
+  margin: 10px 0;
+  color: #eee;
+}
+
+.message > .MuiAvatar-root {
+  width: 35px;
+  height: 35px;
+  align-self: flex-end;
+  margin-bottom: 0;
+}
+
+.message__content {
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #469d59;
+  max-width: 60%;
+  min-width: 200px;
+}
+
+.message__content.sender {
+  margin-left: auto;
+  margin-right: 20px;
+  background-color: #3590d1;
+}
+
+.message__content > p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.message__content > p > small {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: max-content;
+  font-weight: 600;
+}
